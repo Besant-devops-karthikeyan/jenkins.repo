@@ -6,6 +6,9 @@ pipeline {
             steps{
                 echo "Karthi"
             }
+            stage('print age'){
+                steps{
+                    echo "22"    
         }
     }
 }
