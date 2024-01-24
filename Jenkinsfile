@@ -1,14 +1,18 @@
 pipeline {
     agent any
-
+    
     stages {
-        stage('Print Name'){
+        stage('name') {
             steps{
-                echo "Karthi"
+                echo "karthi"
             }
-            stage('print age'){
-                steps{
-                    echo "22"    
         }
+        stage('age') {
+            steps{
+                echo "22"
+
+            }
+        }
+
     }
 }
